@@ -9,16 +9,13 @@ body {
 	justify-content: center;
 	align-items: center;
 	height: 100vh;
-	background-color: #333;
 }
 
 .form {
 	width: 400px;
-	background-color: #dddddd;
-    border: 3px solid rgb(92, 190, 92);
+	border: 3px solid rgb(177, 177, 177);
 	border-radius: 8px;
-    overflow: hidden;
-
+	overflow: hidden;
 
 	&__body {
 		padding: 10px 20px;
@@ -27,22 +24,49 @@ body {
 	&__text {
 		margin: 20px 0;
 	}
+	&__label {
+		display: block;
+		font: 1rem, sans-serif;
+	}
 
+	&__input {
+		height: 40px;
+		width: 95%;
+		margin: 20px 0;
+		border: 2px solid black;
+		border-radius: 5px;
+		background-color: #fff;
+	}
 
-    &__btns{
-        display: flex;
-        justify-content: space-around;
-    }
-    &__btn{
-        padding: 10px 20px;
-        border: 1px solid black;
-        border-radius:  8px; 
-        cursor: pointer;
+	&__title {
+		margin-bottom: 30px;
+		font-size: 50px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		text-transform: uppercase;
+		color: rgb(119, 119, 119);
+	}
 
+	&__btns {
+		display: flex;
+		justify-content: space-around;
+	}
+	&__btn {
+		padding: 10px 20px;
+		border: 1px solid rgb(119, 119, 119);
+		border-radius: 8px;
+		color: rgb(119, 119, 119);
+		cursor: pointer;
 
-        &--highlight{
-            background-color: rgb(92, 190, 92);
-        }
-    }
+		&--highlight {
+			background-color: rgb(51, 105, 253);
+			color: #fff;
+		}
+	}
 }
 
+.input,
+label {
+	margin: 0.4rem 0;
+}
