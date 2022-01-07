@@ -19,7 +19,7 @@ body {
   background-color: #333;
 }
 
-.card {
+.form {
   width: 400px;
   background-color: #dddddd;
   border: 3px solid #5cbe5c;
@@ -27,15 +27,15 @@ body {
   overflow: hidden;
 }
 
-.card__body {
+.form__body {
   padding: 10px 20px;
 }
 
-.card__text {
+.form__text {
   margin: 20px 0;
 }
 
-.card__btns {
+.form__btns {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -43,14 +43,14 @@ body {
       justify-content: space-around;
 }
 
-.card__btn {
+.form__btn {
   padding: 10px 20px;
   border: 1px solid black;
   border-radius: 8px;
   cursor: pointer;
 }
 
-.card__btn--highlight {
+.form__btn--highlight {
   background-color: #5cbe5c;
 }
 /*# sourceMappingURL=style.css.map */
